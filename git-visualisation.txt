@@ -1,0 +1,13 @@
+
+
+branch 1 -----------index.html,abcd.html
+    |
+    |-----branch 2---------index.hmtl,abcd.html,smtg.html
+    |         |
+    |         |--------branch 2--------index.html.abcd.html,smtg.html
+    |
+    |-----branch 3---------index.html,abdc.html,xyz.html
+
+Main --------basics.html,index.html
+|
+|------html-forms-------basics.html,index.html
