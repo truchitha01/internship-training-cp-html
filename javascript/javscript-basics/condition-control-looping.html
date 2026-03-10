@@ -73,8 +73,30 @@
                 numb++
             }while(numb<=5)
             //For..of Loop
+            let colors = ['Red','Green','Blue']
+            for(let color of colors){
+                console.log(color)
+            }
             //For..in Loop
-            //Break and Continue
+            let person = {
+                name : 'Dennis',
+                age : 30,
+                city : 'Bangalore'
+            }
+            for (let key in person){
+                console.log(key + ':' + person[key])
+            }
+            //Break
+            for(let x=0;x<=20;x++){
+                if(x==10) break;
+                console.log('x ='+x)
+            }
+            // Continue
+            for(let y=0;y<=7;y++){
+                if(y == 3)continue;
+                console.log('y = '+y)
+            }
+
         </script>
     </body>
 </html>
